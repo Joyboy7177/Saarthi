@@ -70,7 +70,9 @@ const translations = {
             "100": "पुलिस (100)",
             "108": "एम्बुलेंस (108)",
             "1098": "चाइललाइन (1098)",
-            "112": "आपातकाल (112)"
+            "112": "आपातकाल (112)",
+            "182": "रेल मदद सेवा (182)",
+            "138": "रेल में चिकित्सा सहायता(138)"
         },
         selfDefense: {
             title: "स्वयं की रक्षा तकनीक",
@@ -126,7 +128,9 @@ const translations = {
             "100": "ಪೊಲೀಸು (100)",
             "108": "ಆಂಬುಲೆನ್ಸ್ (108)",
             "1098": "ಚೈಲ್ಡ್‌ಲೈನ್ (1098)",
-            "112": "ಪದವಿಪರಿಶಿಷ್ಟ (112)"
+            "112": "ಪದವಿಪರಿಶಿಷ್ಟ (112)",
+            "182": "ಭಾರತೀಯ ರೈಲ್ವೆ ಸಹಾಯವಾಣಿ (182)",
+            "138": "ರೈಲಿನಲ್ಲಿ ವೈದ್ಯಕೀಯ ಸಹಾಯ (138)"
         },
         selfDefense: {
             title: "ಸ್ವಯಂ ರಕ್ಷಣೆ ತಂತ್ರಗಳು",
@@ -192,6 +196,8 @@ function updateLanguage(lang) {
     document.getElementById('emergency-108').innerText = emergencyNumbers['108'];
     document.getElementById('emergency-1098').innerText = emergencyNumbers['1098'];
     document.getElementById('emergency-112').innerText = emergencyNumbers['112'];
+    document.getElementById('emergency-182').innerText = emergencyNumbers['182'];
+    document.getElementById('emergency-138').innerText = emergencyNumbers['138'];
 
     const selfDefense = selectedTranslations.selfDefense;
     document.getElementById('self-defense-title').innerText = selfDefense.title;
